@@ -13,24 +13,23 @@
 **Kubernetes DevOps Engineer** _Zigram_
   : **Jan 2023 - Present**
 
-- Managed and optimized Kubernetes clusters on AWS EKS and on-premises, using Helm, Ansible and Terraform for automation, upgrades, and scaling.
-- Set up logging and monitoring solutions using Prometheus, Grafana, Fluentbit, and Loki across production systems.
-- Automated cloud infrastructure management with Terraform, Python and Go.
-- Streamlined deployment processes by automating the updating of Kubernetes manifests and Jenkinsfiles using Python + Jinja, Automated tasks using Bash, Ansible, and Python.
-- Configured NGINX as a load balancer for on-premises applications, ensuring efficient traffic distribution and application performance.
-- Developed internal cli tools using Golang and Python for Kubernetes interactions and Developer interactions.
-- Performed system maintenance, kernel and cluster upgrades, and performance tuning on multiple Linux distributions (Ubuntu, Debian, Arch, Fedora).
+- Managed multiple Kubernetes clusters On premises and **AWS EKS**, using **Helm**, **Ansible** and **Terraform** for automation and upgrades.
+- Set up logging and monitoring solutions using **Prometheus**, **Grafana**, and **Loki** (_LGTM Stack_) across production systems.
+- Streamlined deployment using Jenkins. Developed tools to quickly generate Jenkinsfile and Kubernetes manifests using **Python + Jinja**.
+- Configured Nginx as a production proxy & load balancer for On premises deployments.
+- Developed internal cli tools using Golang and Python for Kubernetes interactionsm, Cloud automations and Developer interactions.
+- Performed production maintenance, kernel and k8s cluster upgrades on multiple Linux distributions (Ubuntu, Debian, Arch, Fedora).
 - Collaborated with teams using JIRA for Agile project management, tracking progress and ensuring efficient sprint planning.
 
 **Research Intern** _IIIT Hyderabad_
   : **Jul 2022 - Jan 2023**
 
-- Developed GitLab pipelines for Docker-based API deployments.
+- Worked on gitLab pipelines for Docker API deployments.
 - Created a Digital Twin of the campus, visualizing IoT nodes in an interactive virtual game. Utilized Python backend to fetch data from OneM2M servers.
-- Designed a Smart Lamp post with Wi-SUN Mesh Technology, featuring an Electronic Ink Kiosk Display. Developed backend in Python and utilized image dithering techniques. The project won the Best Technology award at the Korean Electronics Technology Institute Hackathon.
-- Implemented OneM2M API in Python for HomeAssistant integration and data visualization.
-- Managed Raspberry Pi servers running Debian for various research lab applications.
-- Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and connectivity with Raspberry Pis via Flask server.
+- Designed a Smart Lamp post with WiSUN Mesh Technology, featuring an Electronic Ink Kiosk Display. Developed UI with Chromium engine + Image dithering techniques for E-paper conversion. The project won the **Best Technology** award at the **Korean Electronics Technology Institute Hackathon**.
+- Implemented OneM2M API in Python for HomeAssistant integration and device control.
+- Developed Custom ESPHome nodes for interactivity with OneM2M API.
+- Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and connectivity with Raspberry Pi's via Flask server.
 
 ## Certifications
 
