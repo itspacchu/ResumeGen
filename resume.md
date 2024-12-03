@@ -1,6 +1,9 @@
 
 # <center> Prashant Nandipati
 
+
+<link rel="stylesheet" href="./css/template_1.css">
+
 <br>
 
 <span class="iconify" data-icon="charm:person"></span> [prashantnook.in](https://prashantnook.in/)
