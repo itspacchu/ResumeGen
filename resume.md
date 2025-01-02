@@ -7,8 +7,8 @@
 <br>
 
 <span class="iconify" data-icon="charm:person"></span> [www.prashantnook.in](https://prashantnook.in/)
-  : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/itspacchu](https://github.com/itspacchu)
-  : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [github.com/itspacchu](https://www.linkedin.com/in/prashantnook/)
+  : <span class="iconify" data-icon="tabler:brand-github"></span> [itspacchu@github](https://github.com/itspacchu)
+  : <span class="iconify" data-icon="tabler:brand-linkedi"></span> [prashantnook@linkedin](https://www.linkedin.com/in/prashantnook/)
   : <span class="iconify" data-icon="tabler:mail"></span> [prashantn@riseup.net](mailto:prashantn@riseup.net)
 
 
