@@ -14,42 +14,13 @@
 
 ## Skills
 
-**Programming Languages:** Python, Golang, Bash/Zsh, Rust, Lua;
+**Programming Languages:** Python, Golang, Bash;
 
-**Tools:** Git, Docker/Podman, kubectl, Terraform/Tofu, Ansible, Pulumi, $\LaTeX$;
+**Key Technologies:** Linux, Git, Docker/Podman, Kubernetes, Helm, Terraform/Tofu, Ansible;
 
-**Deployments:** Linux, Kubernetes (EKS, Kubeadm, K3S), Helm, Kustomize, Docker, Podman;
+**Cloud Platforms:** AWS (EC2, ECR, EKS, IAM, Lambda, RDS, Route53 S3), Cloudflare;
 
-**Cloud:** AWS, Oracle;
-
-**Monitoring and Logging:** Grafana, Prometheus, Fluentbit, Loki, Jaeger, OpenTelemetry;
-
-## Experience
-
-**Kubernetes DevOps Engineer** _Zigram_
-  : **Jan 2023 - Present**
-
-- Managed **10+** production Kubernetes clusters, both **on-premises** and **AWS EKS**; worked on cluster maintaince and cluster upgrades using tools like **Helm** and **Terraform**.
-- Performed **Linux/UNIX** server maintenance, security compliance and upgrades, on multiple Linux distros (*Ubuntu, Debian, Arch, Fedora*), using **Ansible** and **Bash**.
-- Used **Terraform/Tofu** to provision and manage cloud infrastructure, which includes *EKS, RDS, EC2*.
-- Implemented **observability** stack using **Fluentbit, Loki, Prometheus, Grafana, OpenTelemetry** and **InfluxDB**, across multiple production environments.
-- Worked on templating *Jenkinsfiles* and *K8s* manifest files. Developed tooling in *Golang* which were used to quickly generate Jenkinsfile and Kubernetes manifests using *Python + Jinja*, for 50+ repositories.
-- Developed internal cli tools using **Golang** and **Python** for Kubernetes interactions, Cloud automations and Developer interactions such as live log streaming from pods.
-- Configured and managed *NGINX* as a load balancer for *on-premises* applications, ensuring optimal performance and traffic distribution.
-- Designed and implemented multi-cluster network and storage solutions using tools like MetalLB and sshfs.
-- Developed internal tools using Golang to enhance Kubernetes interactions, increasing developer productivity through simplified command-line tools.
-- Performed Linux system maintenance, including kernel upgrades, performance tuning, and troubleshooting across multiple servers, ensuring stability and reliability.
-- Collaborated with teams using *JIRA* for *Agile* project management, tracking progress and ensuring efficient sprint planning.
-
-**Research Intern** _IIIT Hyderabad_
-  : **Jul 2022 - Jan 2023**
-
-- Worked on **GitLab** pipelines for Docker deployments.
-- Created a Digital Twin of the campus, visualizing IoT nodes in an interactive virtual game. Utilized Python backend to fetch data from OneM2M servers.
-- Designed a Smart Lamp post with WiSUN Mesh Technology, featuring an Electronic Ink Kiosk Display. Developed UI with Chromium engine + Image dithering techniques for E-paper conversion. The project won the **Best Technology** award at the **Korean Electronics Technology Institute Hackathon**.
-- Implemented OneM2M API in Python for HomeAssistant integration and device control.
-- Developed Custom ESPHome nodes for interactivity with OneM2M API.
-- Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and connectivity with Raspberry Pi's via Flask server.
+**Observability:** Grafana, Prometheus, Fluentbit, Loki, Jaeger, OpenTelemetry;
 
 ## Certifications
 
@@ -57,6 +28,33 @@
   : **Mar 2024**
 
 _Cloud Native Computing foundation_
+
+## Experience
+
+**Kubernetes DevOps Engineer** _Zigram_
+  : **Jan 2023 - Present**
+
+- Worked on migration of legacy docker container based deployments to Kubeadm Kubernetes deployments for 50+ projects.
+- Led setup of On-prem infrastructure for Production Kubernetes environment using *Kubeadm* and *Ansible* and worked on migration of resources from AWS EKS to On-prem.
+- Performed *Linux/UNIX* server maintenance, security compliance and upgrades, on multiple Linux distros (*Ubuntu, Debian, and Redhat based*), using **Ansible** and **Bash**.
+- Automated AWS Infrastructure using **Terraform/Tofu** to provision, upgrade and manage *EKS, RDS, EC2, S3, Lambda and Route53*.
+- Implemented multi-cluster observability using *Fluentbit, Loki, Prometheus, Grafana and OpenTelemetry*.
+- Worked on templating *Jenkinsfiles* and *K8s* manifest files using *Python + Jinja + Kustomize*, for 50+ repositories.
+- Created custom helm charts for internal projects to be deployed through _ArgoCD_.
+- Developed internal cli tools using *Golang* and *Python* for Kubernetes automation via client-go and AWS Automations via boto3.
+- Configured and managed *NGINX* for *on-premises* applications, ensuring optimal performance, config modularity and traffic distribution.
+- Collaborated with teams using *JIRA* for *Agile* project management, tracking progress and ensuring efficient sprint planning.
+
+**Software Developer** _IIIT Hyderabad_
+  : **Jun 2022 - Jan 2023** (8 months)
+
+- Worked on migrating application deployment from systemd to container based deployment using *Docker* and *Gitlab* pipelines.
+- Led initiative of building a Digital Twin of the campus, visualizing IoT nodes in an interactive way. Utilized Python backend to fetch data from OneM2M servers.
+- Designed a Nodes with WiSUN Mesh Technology, featuring an Electronic Ink Display. _(The project won the **Best Technology** award at the **Korean Electronics Technology Institute Hackathon**)_.
+- Implemented OneM2M API in Python for HomeAssistant integration and device control.
+- Developed Custom ESPHome sensors using C++ for interactivity with OneM2M API.
+- Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and building API endpoints in Python using *Flask*.
+
 
 ## Projects
 
@@ -69,32 +67,23 @@ _Cloud Native Computing foundation_
 - Hosted image/game servers, a document server, and a self-hosted Git instance for backups.
 
 
-**Kubeloki** | _Go_
+**Kube2loki** | _Go_
   : **Nov 2024**
 
-- Built a utility to stream logs from Kubernetes pods to a Loki instance using client-go.
-- Implemented Goroutine based log polling and streaming for log collection per pod/container.
+- Utility to stream logs from Kubernetes pods to a Loki instance using client-go.
 
 [**OneM2M Kiosk**](https://prashantnook.in/post/e-paper-kiosk/) | _Python (Flask), C++, Docker_
   : **Oct 2022**
 
-- Developed a lamp post kiosk to connect to OneM2M and retrieve data from a WiSUN network.
-- Controlled an E-Ink display to show real-time values from OneM2M servers.
-- Implemented automatic updates with GitHub Actions and Containerized deployment.
-
-**Image2Gcode** | _C++_
-  : **Feb 2022**
-
-- Developed a tool that converts line art images to Gcode for Marlin compatible 3D printers.
-- Modified a `Creality Ender 3` printer to allow image plotting functionality using the generated G-code.
+- Developed a kiosk API to connect to OneM2M and retrieve data from a Wi-SUN network.
+- Implemented automatic updates with GitHub Actions to Self hosted node and Docker based deployment.
 
 
 [**University Results Scraper** | _Python, GitHub Actions_](https://github.com/itspacchu/JNTU-Results)
   : **May 2020**
 - Scraping University results using Python's beautifulsoup.
 - Storing and fetching respective results to MongoDB.
-- Performing various data analysis techniques to calculate student rankings per college.
-- Hosted in Docker swarm to parallely scrape multiple colleges at once.
+- Docker swarm to parallely scrape multiple colleges at once.
 
 ## Education
 
