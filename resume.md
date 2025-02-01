@@ -20,7 +20,7 @@
 
 **Cloud Platforms:** AWS (EC2, ECR, EKS, IAM, Lambda, RDS, Route53 S3), Cloudflare;
 
-**Observability:** Grafana, Prometheus, Fluentbit, Loki, Jaeger, OpenTelemetry;
+**Tools:** Grafana, Prometheus, Fluentbit, Loki, Jaeger, OpenTelemetry, SonarQube;
 
 ## Certifications
 
