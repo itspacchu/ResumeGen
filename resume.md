@@ -48,13 +48,19 @@ _Cloud Native Computing foundation_
 **Software Developer** _IIIT Hyderabad_
   : **Jun 2022 - Jan 2023** (8 months)
 
-- Worked on migrating application deployment from systemd to container based deployment using *Docker* and *Gitlab* pipelines.
-- Led initiative of building a Digital Twin of the campus, visualizing IoT nodes in an interactive way. Utilized Python backend to fetch data from OneM2M servers.
-- Designed a Nodes with WiSUN Mesh Technology, featuring an Electronic Ink Display. _(The project won the **Best Technology** award at the **Korean Electronics Technology Institute Hackathon**)_.
+- Migrated application deployments to container based deployment using Docker and setup CI/CD using Gitlab.
+- Built a Digital Twin of the campus, visualizing IoT nodes. Using Python and FOSS tools with OneM2M servers.
+- Designed a Nodes with WiSUN Mesh Technology, featuring an Electronic Ink Display.
 - Implemented OneM2M API in Python for HomeAssistant integration and device control.
 - Developed Custom ESPHome sensors using C++ for interactivity with OneM2M API.
-- Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and building API endpoints in Python using *Flask*.
+- Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and building API endpoints in Python using Flask.
 
+**Backend Developer** _WorldOfAtlantida_
+  : **Apr 2022 - Dec 2022** (8 months)
+- Developed and maintained a Chatbot bot for automation and community management.
+- Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment.
+- Containerized the application using Docker and hosted it on GitHub Container Registry (ghcr.io).
+- Deployed and managed the bot on a Linux server, ensuring uptime and efficient resource utilization.
 
 ## Projects
 
@@ -65,7 +71,6 @@ _Cloud Native Computing foundation_
 - Set up a selfhosted Kubernetes cluster with k3s and used Cloudflared for proxying.
 - Configured a Samba server for local file sharing and media storage.
 - Hosted image/game servers, a document server, and a self-hosted Git instance for backups.
-
 
 **Kube2loki** | _Go_
   : **Nov 2024**
