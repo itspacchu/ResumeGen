@@ -34,9 +34,10 @@ _Cloud Native Computing foundation_
 **Kubernetes DevOps Engineer** _Zigram_
   : **Jan 2023 - Present**
 
-- Worked on migration of legacy docker container based deployments to Kubeadm Kubernetes deployments for 50+ projects.
+- Worked on migration of legacy docker container based deployments to Kubeadm Kubernetes deployments for 20+ projects.
 - Led setup of On-prem infrastructure for Production Kubernetes environment using *Kubeadm* and *Ansible* and worked on migration of resources from AWS EKS to On-prem.
 - Performed *Linux/UNIX* server maintenance, security compliance and upgrades, on multiple Linux distros (*Ubuntu, Debian, and Redhat based*), using **Ansible** and **Bash**.
+- Built *Kubernetes Operators* in *Golang* to automate cluster maintainance and reduce manual workloads.
 - Automated AWS Infrastructure using **Terraform/Tofu** to provision, upgrade and manage *EKS, RDS, EC2, S3, Lambda and Route53*.
 - Implemented multi-cluster observability using *Fluentbit, Loki, Prometheus, Grafana and OpenTelemetry*.
 - Worked on templating *Jenkinsfiles* and *K8s* manifest files using *Python + Jinja + Kustomize*, for 50+ repositories.
@@ -55,7 +56,7 @@ _Cloud Native Computing foundation_
 - Developed Custom ESPHome sensors using C++ for interactivity with OneM2M API.
 - Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and building API endpoints in Python using Flask.
 
-**Backend Developer** _WorldOfAtlantida_
+**Backend Developer** _WorldOfAtlantida (Part time)_
   : **Apr 2022 - Dec 2022** (8 months)
 - Developed and maintained a Chatbot bot for automation and community management.
 - Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment.
@@ -71,6 +72,13 @@ _Cloud Native Computing foundation_
 - Set up a selfhosted Kubernetes cluster with k3s and used Cloudflared for proxying.
 - Configured a Samba server for local file sharing and media storage.
 - Hosted image/game servers, a document server, and a self-hosted Git instance for backups.
+
+**AWS Secrets K8s operator** | _Go_
+  : **Jan 2025**
+
+- Kubernetes Operator to automatically rotate AWS ECR Credentials for onprem clusters.
+- Supports Automatically fetching Region and Account ID from image URI
+- Reapplies secrets on ImagePullBackoff Pods.
 
 **Kube2loki** | _Go_
   : **Nov 2024**
