@@ -18,7 +18,7 @@
 
 **Key Technologies:** Linux, Git, Docker/Podman, Kubernetes, Helm, Terraform/Tofu, Ansible;
 
-**Cloud Platforms:** AWS (EC2, ECR, EKS, IAM, Lambda, RDS, Route53 S3), Cloudflare;
+**Cloud Platforms:** AWS (EC2, ECR, EKS, IAM, Lambda, RDS, Route53, S3), Cloudflare;
 
 **Tools:** Grafana, Prometheus, Fluentbit, Loki, Jaeger, OpenTelemetry, SonarQube;
 
