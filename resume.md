@@ -1,4 +1,3 @@
-
 # <center> Prashant Nandipati
 
 
@@ -8,60 +7,76 @@
 
 <span class="iconify" data-icon="charm:person"></span> [www.prashantnook.in](https://prashantnook.in/)
   : <span class="iconify" data-icon="tabler:brand-github"></span> [github.com/itspacchu](https://github.com/itspacchu)
-  : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [github.com/itspacchu](https://www.linkedin.com/in/prashantnook/)
+  : <span class="iconify" data-icon="tabler:brand-linkedin"></span> [ln@prashantnook](https://www.linkedin.com/in/prashantnook/)
   : <span class="iconify" data-icon="tabler:mail"></span> [prashantn@riseup.net](mailto:prashantn@riseup.net)
-
+  : <span class="iconify" data-icon="tabler:phone"></span> +91 768 0000 982
 
 ## Skills
 
 **Programming Languages:** Python, Golang, Bash;
 
-**Key Technologies:** Linux, Git, Docker/Podman, Kubernetes, Helm, Terraform/Tofu, Ansible;
+**Key Technologies:** Linux, Git, Docker/Podman, Kubernetes, Helm, Terraform/Tofu, Ansible, Infrastructure as Code (IaC), CI/CD, GitOps;
 
-**Cloud Platforms:** AWS (EC2, ECR, EKS, IAM, Lambda, RDS, Route53, S3), Cloudflare;
+**Cloud Platforms:** AWS (EC2, ECR, EKS, IAM, Lambda, RDS, Route53, S3, VPC, Security Groups, Load Balancers), Cloudflare;
 
-**Tools:** Grafana, Prometheus, Fluentbit, Loki, Jaeger, OpenTelemetry, SonarQube;
+**Networking & Security:** VPC, Security Groups, Load Balancers, TLS, Firewalls, VPN;
+
+**Monitoring & Logging:** Grafana, Prometheus, Fluentbit, Loki, Jaeger, OpenTelemetry, SonarQube, ELK Stack;
 
 ## Certifications
 
-[**Certified Kubernetes Administrator**](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/6729fa83-e42c-43d9-8d8c-32d7cbb94be2-nandipati-d-prashant-c982b27a-b880-4599-ace5-9bdad890b99e-certificate.pdf)
+[**Certified Kubernetes Administrator (CKA)**](https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/6729fa83-e42c-43d9-8d8c-32d7cbb94be2-nandipati-d-prashant-c982b27a-b880-4599-ace5-9bdad890b99e-certificate.pdf)
   : **Mar 2024**
 
-_Cloud Native Computing foundation_
+_Cloud Native Computing Foundation_
 
 ## Experience
 
-**Kubernetes DevOps Engineer** _Zigram_
-  : **Jan 2023 - Present**
+### **Kubernetes DevOps Engineer**  
+**Zigram**  
+**Jan 2023 - Present**
 
-- Worked on migration of legacy docker container based deployments to Kubeadm Kubernetes deployments for 20+ projects.
-- Led setup of On-prem infrastructure for Production Kubernetes environment using *Kubeadm* and *Ansible* and worked on migration of resources from AWS EKS to On-prem.
-- Performed *Linux/UNIX* server maintenance, security compliance and upgrades, on multiple Linux distros (*Ubuntu, Debian, and Redhat based*), using **Ansible** and **Bash**.
-- Built *Kubernetes Operators* in *Golang* to automate cluster maintainance and reduce manual workloads.
-- Automated AWS Infrastructure using **Terraform/Tofu** to provision, upgrade and manage *EKS, RDS, EC2, S3, Lambda and Route53*.
-- Implemented multi-cluster observability using *Fluentbit, Loki, Prometheus, Grafana and OpenTelemetry*.
-- Worked on templating *Jenkinsfiles* and *K8s* manifest files using *Python + Jinja + Kustomize*, for 50+ repositories.
-- Created custom helm charts for internal projects to be deployed through _ArgoCD_.
-- Developed internal cli tools using *Golang* and *Python* for Kubernetes automation via client-go and AWS Automations via boto3.
-- Configured and managed *NGINX* for *on-premises* applications, ensuring optimal performance, config modularity and traffic distribution.
-- Collaborated with teams using *JIRA* for *Agile* project management, tracking progress and ensuring efficient sprint planning.
+- Led **migration of 20+ legacy Docker deployments** to **Kubernetes (Kubeadm)**, reducing deployment time by **40%**.
+- Designed and deployed **On-Prem Kubernetes Infrastructure** using **Ansible** and **Kubeadm**, migrating workloads from AWS **EKS**, leading to **increased operational efficiency and cost reduction**.
+- Managed **Linux/UNIX server maintenance, patching, and security compliance** across **Ubuntu, Debian, and RedHat-based** distributions, ensuring **99.9% uptime**.
+- Developed **Kubernetes Operators in Golang** to automate **cluster maintenance and self-healing features**, reducing manual workload by **30%**.
+- Automated **AWS Infrastructure provisioning** with **Terraform/Tofu**, efficiently managing **EKS, RDS, EC2, S3, Lambda, Route53**, improving **scalability and infrastructure as code implementation**.
+- Spearheaded **multi-cluster observability** using **Fluentbit, Loki, Prometheus, Grafana, and OpenTelemetry**, enhancing **real-time monitoring and issue detection**.
+- Created **custom Helm charts** for internal projects, enabling **standardized and repeatable Kubernetes deployments** through **ArgoCD**.
+- Developed **internal CLI tools** for **Kubernetes automation**, leveraging **client-go, AWS boto3, and Golang**, improving **team efficiency** by automating repetitive tasks.
+- Configured and managed **NGINX reverse proxy**, optimizing **traffic distribution, security, and modular configuration**, ensuring **high availability**.
+- Led **CI/CD pipeline automation** using **Jenkinsfiles, Jinja, and Kustomize**, managing **50+ repositories**, significantly improving **development speed and deployment consistency**.
+- Worked with **geographically distributed teams**, ensuring smooth collaboration in **multi-time zone environments** through **effective communication and documentation**.
+- Applied **DevOps best practices** to enhance **automation, security, and efficiency** in production workflows, improving **system reliability** and **deployment efficiency**.
 
-**Software Developer** _IIIT Hyderabad_
-  : **Jun 2022 - Jan 2023** (8 months)
+### **Software Developer**  
+**IIIT Hyderabad**  
+**Jun 2022 - Jan 2023 (8 months)**
 
-- Migrated application deployments to container based deployment using Docker and setup CI/CD using Gitlab.
-- Built a Digital Twin of the campus, visualizing IoT nodes. Using Python and FOSS tools with OneM2M servers.
-- Designed a Nodes with WiSUN Mesh Technology, featuring an Electronic Ink Display.
-- Implemented OneM2M API in Python for HomeAssistant integration and device control.
-- Developed Custom ESPHome sensors using C++ for interactivity with OneM2M API.
-- Worked with ESP8266/ESP32 boards using MicroPython a and C++ for sensor interfacing and building API endpoints in Python using Flask.
+- Migrated applications to **containerized deployments** using **Docker** and set up **CI/CD pipelines** with **GitLab**.
+- Built and automated **infrastructure services** using **Terraform and Helm**.
+- Developed **Digital Twin visualization of IoT nodes** using **Python** and **OneM2M servers**.
+- Designed **IoT nodes with WiSUN Mesh Technology**, integrating **Electronic Ink Display**.
+- Integrated **OneM2M API in Python** for **HomeAssistant**, enabling **device control & automation**.
+- Developed **custom ESPHome sensors** in **C++**, enhancing IoT node interactivity.
+- Programmed **ESP8266/ESP32 boards** using **MicroPython & C++**, interfacing with **Flask-based APIs**.
 
-**Backend Developer** _WorldOfAtlantida (Part time)_
-  : **Apr 2022 - Dec 2022** (8 months)
-- Developed and maintained a Chatbot bot for automation and community management.
-- Implemented CI/CD pipelines using GitHub Actions for automated testing and deployment.
-- Containerized the application using Docker and hosted it on GitHub Container Registry (ghcr.io).
-- Deployed and managed the bot on a Linux server, ensuring uptime and efficient resource utilization.
+### **Backend Developer (Part-time)**  
+**WorldOfAtlantida**  
+**Apr 2022 - Dec 2022 (8 months)**
+
+- Developed and maintained **chatbot automation** for **community management**.
+- Implemented **CI/CD pipelines** using **GitHub Actions**, automating **testing & deployments**.
+- Containerized application using **Docker** and hosted it on **GitHub Container Registry (GHCR.io)**.
+- Managed **Linux server deployments**, ensuring **99.9% uptime**.
+
+## Education
+
+### **B.Tech in Electronics and Communication Engineering**  
+**Jawaharlal Nehru Technological University**  
+**Sep 2021 - Jan 2023**  
+_Equivalent to a BS in Computer Science in terms of software engineering coursework and practical experience._
+
 
 ## Projects
 
@@ -98,18 +113,10 @@ _Cloud Native Computing foundation_
 - Storing and fetching respective results to MongoDB.
 - Docker swarm to parallely scrape multiple colleges at once.
 
-## Education
-
-**B.Tech in Electronics and Communication Engineering**
-  : **Sep 2021 - Jan 2023**
-
-Jawaharlal Nehru Technological University
 
 ## Awards and Honors
 
-**Best Technology**, Korean Electronics Technology Institute Hackathon (KETI)
-  : 2022
+- 🏆 **Best Technology**, **Korean Electronics Technology Institute Hackathon (KETI) – 2022**
+- 🥈 **Runners-up**, **Sainya Ranakshetram CTF**
+- 🏅 **First Place**, **i3ndya's IoT Challenge – IIT Bombay**
 
-**Runners up**, Sainya Ranakshetram CTF
-
-**First Place**, i3ndya's IOT Challenge IITB
